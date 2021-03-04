@@ -5,7 +5,8 @@ public class Worker {
 		animal.eat(food);
 	}
 	
-	public String getVoice(Animal animal) {
-			return animal.voice();
+	public void getVoice(Animal animal) {
+			Voice voiceAnimal = (Voice) animal;
+			System.out.println(voiceAnimal.voice());
 }
 }

@@ -1,5 +1,5 @@
 import Foodpackage.*;
-public class Carnivorous extends Animal {
+public abstract class Carnivorous extends Animal {
 	public Carnivorous(String name, String voice) {
 		super(name, voice);
 	}

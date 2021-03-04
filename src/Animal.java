@@ -1,6 +1,5 @@
 import Foodpackage.*;
-import Interfaces.*;
-public abstract class  Animal implements Swim, Run, Fly, Voice {
+public abstract class  Animal{
 	protected String name;
 	protected String voice;
 	public Animal(String name, String voice) {

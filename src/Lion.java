@@ -1,4 +1,5 @@
-public class Lion extends Carnivorous{
+import Interfaces.*;
+public class Lion extends Carnivorous implements Swim, Run, Voice{
 	private static String name ="Lion";
 	private static String voice = "Roar";
 	public Lion() {

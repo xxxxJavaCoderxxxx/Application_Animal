@@ -1,4 +1,5 @@
-public class Duck extends Herbivore  {
+import Interfaces.*;
+public class Duck extends Herbivore implements Swim, Fly, Run, Voice  {
 	private static String name ="Duck";
 	private static String voice ="krya-krya";
 	public Duck() {

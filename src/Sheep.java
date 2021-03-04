@@ -1,4 +1,5 @@
-public class Sheep extends Herbivore {
+import Interfaces.*;
+public class Sheep extends Herbivore implements Swim, Run, Voice{
 	private static String name ="Sheep";
 	private static String voice ="baa-baa";
 	public Sheep() {

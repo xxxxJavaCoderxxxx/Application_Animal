@@ -1,4 +1,5 @@
 import Foodpackage.*;
+import Interfaces.Swim;
 public class Zoo {
 
 	public static void main(String[] args) {
@@ -13,14 +14,14 @@ public class Zoo {
 		
 		worker.feed(newDill, lion);
 		worker.feed(newMeat, lion);
-		System.out.println(worker.getVoice(lion));
+		worker.getVoice(lion);
 		
 		worker.feed(newDill, hippopotamus);
 		worker.feed(newMeat, hippopotamus);
-		System.out.println(worker.getVoice(hippopotamus));
-		Animal[] pool = {hippopotamus,duck,fish,fish};
-		for(int i=0; i < 4; i++) {
-			pool[i].swim();
-		}
+		worker.getVoice(hippopotamus);
+	Swim[] pool = {hippopotamus,duck,fish,fish};
+	for(int i=0; i < 4; i++) {
+		pool[i].swim();
+	}
 	}
 }

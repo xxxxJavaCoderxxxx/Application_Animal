@@ -1,4 +1,5 @@
-public class Hippopotamus extends Herbivore{
+import Interfaces.*;
+public class Hippopotamus extends Herbivore implements Swim, Run, Voice {
 	private static String name ="Hippopotamus";
 	private static String voice ="growl";
 	public Hippopotamus() {

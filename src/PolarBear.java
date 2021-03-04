@@ -1,4 +1,5 @@
-public class PolarBear extends Carnivorous  {
+import Interfaces.*;
+public class PolarBear extends Carnivorous implements Swim, Run, Voice  {
 	private static String name ="PolarBear";
 	private static String voice = "Roar+Growl";
 	public PolarBear() {
